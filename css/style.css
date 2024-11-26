@@ -12393,3 +12393,28 @@ img {
 
 
 
+/* For smaller devices */
+@media (max-width: 768px) {
+  .section-dark h2 {
+      font-size: 2rem; /* Smaller header size for tablets */
+  }
+
+  .section-dark p {
+      font-size: 0.95rem; /* Slightly smaller text */
+      padding: 0 10px; /* Narrow padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .section-dark h2 {
+      font-size: 1.8rem; /* Smaller header for phones */
+  }
+
+  .section-dark p {
+      font-size: 0.9rem; /* Text size for smaller screens */
+  }
+}
+
+
+
+
